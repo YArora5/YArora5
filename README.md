@@ -1,16 +1,28 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**YArora5/YArora5** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Yugal Arora
 
-Here are some ideas to get you started:
+### 🎮 Game Developer • 🌐 Web Developer • 🎨 3D Artist
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Building games, interactive web experiences & 3D worlds.
+
+<br>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yugal15)
+[![GitHub](https://img.shields.io/badge/GitHub-YArora5-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YArora5)
+
+</div>
+
+---
+
+## ⚡ What I Build
+
+```text
+🎮 GAME DEVELOPMENT
+Unity • C# • Gameplay • AI • Physics
+
+🌐 WEB DEVELOPMENT
+React • JavaScript • HTML • CSS • Flask
+
+🎨 3D & CREATIVE
+Blender • 3D Modeling • Animation • Rendering
