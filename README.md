@@ -4,16 +4,16 @@
 
 ### 🎮 Game Developer · 🌐 Web Developer · 🎨 3D Artist
 
-I build games, web experiences, and 3D experiences.
+Building games, web experiences & 3D worlds.
 
 <br>
 
 <a href="https://www.linkedin.com/in/yugal15">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+<img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 &nbsp;
 <a href="https://github.com/YArora5">
-  <img src="https://img.shields.io/badge/GitHub-YArora5-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 </div>
@@ -24,9 +24,10 @@ I build games, web experiences, and 3D experiences.
 
 <table>
 <tr>
-<td width="33%" align="center">
 
-### 🎮 GAME DEV
+<td align="center" width="33%">
+
+### 🎮 Game Development
 
 Unity  
 C#  
@@ -36,21 +37,21 @@ Physics
 
 </td>
 
-<td width="33%" align="center">
+<td align="center" width="33%">
 
-### 🌐 WEB DEV
+### 🌐 Web Development
 
-JavaScript  
 React  
+JavaScript  
 HTML  
 CSS  
 Flask
 
 </td>
 
-<td width="33%" align="center">
+<td align="center" width="33%">
 
-### 🎨 3D & ART
+### 🎨 3D & Creative
 
 Blender  
 3D Modeling  
@@ -59,6 +60,7 @@ Lighting
 Rendering
 
 </td>
+
 </tr>
 </table>
 
@@ -66,73 +68,53 @@ Rendering
 
 ## 🚀 Featured Projects
 
-<table>
-<tr>
-
-<td width="50%">
-
 ### 🎮 HeartFall
 
-**2D Platformer · Unity · C#**
+> **2D Platformer · Unity · C#**
 
-A 2D platformer featuring combat, enemy AI, traps, checkpoints, collectibles, animation and scene management.
+A 2D platformer focused on interactive gameplay, combat and enemy systems.
 
-**Built with:**  
-`Unity` `C#` `Game Development`
+**Features**
 
-<br>
+`Player Movement` `Combat` `Enemy AI` `Traps` `Checkpoints` `Health` `UI`
 
-<a href="https://github.com/YArora5/HeartFall">
-  View Project →
-</a>
+<a href="https://github.com/YArora5/HeartFall">🔗 View Repository</a>
 
-</td>
-
-<td width="50%">
+---
 
 ### 🍩 Mug & Donut
 
-**3D Product Animation · Blender**
+> **3D Product Animation · Blender**
 
-A product animation focused on realistic materials, lighting, physics-based interactions and cinematic camera animation.
+A realistic product animation exploring materials, lighting, physics-based interactions and cinematic camera animation.
 
-**Built with:**  
-`Blender` `3D Animation` `Physics`
+**Focus**
 
-</td>
+`3D Modeling` `Materials` `Physics` `Animation` `Lighting` `Rendering`
 
-</tr>
-
-<tr>
-
-<td width="50%">
+---
 
 ### 🌐 Interior Designer
 
-**Interactive Web Experience**
+> **Interactive Web Experience**
 
-A responsive interior design website with interactive layouts and modern UI.
+A responsive interior design website focused on modern UI and interactive layouts.
 
-**Built with:**  
+**Built with**
+
 `React` `JavaScript` `HTML` `CSS`
 
-</td>
-
-<td width="50%">
+---
 
 ### 📊 Smart Attendance
 
-**Web Application · Python**
+> **Web Application · Python · Flask**
 
-A smart attendance system with authentication, database integration and automated attendance processing.
+An attendance management system with authentication, database integration and automated processing.
 
-**Built with:**  
-`Python` `Flask` `SQLite`
+**Built with**
 
-</td>
-
-</tr>
-</table>
+`Python` `Flask` `SQLite` `HTML` `CSS`
 
 ---
 
@@ -140,37 +122,39 @@ A smart attendance system with authentication, database integration and automate
 
 <div align="center">
 
-### 🎮 Game Development
-
-<img src="https://skillicons.dev/icons?i=unity,cs" />
-
-### 🌐 Web Development
-
-<img src="https://skillicons.dev/icons?i=html,css,js,react,flask" />
-
-### 🎨 3D & Creative
-
-<img src="https://skillicons.dev/icons?i=blender" />
-
-### 💻 Programming
-
-<img src="https://skillicons.dev/icons?i=python" />
+<img src="https://skillicons.dev/icons?i=unity,cs,blender,react,js,html,css,python,flask" />
 
 </div>
 
 ---
 
-## 🎯 What I'm Exploring
+## 🎯 Currently Building
 
-```text
-Game Development
-        ↓
-Gameplay • AI • Physics • Interactive Systems
+🎮 **Game Development**  
+Building interactive gameplay systems with Unity & C#
 
-Web Development
-        ↓
-Modern UI • React • Interactive Experiences
+🎨 **3D & Animation**  
+Creating realistic product visuals and animations in Blender
 
-3D & Creative
-        ↓
-Modeling • Animation • Lighting • Product Visualization
+🌐 **Web Development**  
+Building modern and interactive web experiences
+
+---
+
+## 📊 GitHub
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=YArora5&show_icons=true&hide_border=true&theme=dark&rank_icon=github" height="170"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=YArora5&theme=dark&hide_border=true" height="170"/>
+
+</div>
+
+---
+
+<div align="center">
+
+### 🚀 Build. Create. Experiment.
+
+</div>
