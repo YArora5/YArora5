@@ -88,9 +88,11 @@ A 2D platformer focused on interactive gameplay, combat and enemy systems.
 
 A realistic product animation exploring materials, lighting, physics-based interactions and cinematic camera animation.
 
-**Focus**
+**Features**
 
 `3D Modeling` `Materials` `Physics` `Animation` `Lighting` `Rendering`
+
+<a href="https://github.com/YArora5/Blender-files/blob/main/donut.blend">🔗 View Repository</a>
 
 ---
 
@@ -104,6 +106,8 @@ A responsive interior design website focused on modern UI and interactive layout
 
 `React` `JavaScript` `HTML` `CSS`
 
+<a href="https://github.com/YArora5/Interior-Designer">🔗 View Repository</a>
+
 ---
 
 ### 📊 Smart Attendance
@@ -115,6 +119,8 @@ An attendance management system with authentication, database integration and au
 **Built with**
 
 `Python` `Flask` `SQLite` `HTML` `CSS`
+
+<a href="https://github.com/YArora5/SmartAttendance">🔗 View Repository</a>
 
 ---
 
