@@ -1,40 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07131f"/><stop offset=".55" stop-color="#0a1829"/><stop offset="1" stop-color="#130b1d"/></linearGradient>
-  <radialGradient id="glow"><stop stop-color="#67e8ff" stop-opacity=".5"/><stop offset="1" stop-color="#67e8ff" stop-opacity="0"/></radialGradient>
-  <linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#18283a"/><stop offset=".5" stop-color="#0c1624"/><stop offset="1" stop-color="#050a11"/></linearGradient>
-  <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b2634"/><stop offset="1" stop-color="#061017"/></linearGradient>
-  <filter id="blur"><feGaussianBlur stdDeviation="30"/></filter>
-  <filter id="shadow"><feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#000" flood-opacity=".55"/></filter>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050913"/><stop offset=".55" stop-color="#0b1425"/><stop offset="1" stop-color="#160c20"/></linearGradient>
+ <radialGradient id="blueGlow"><stop stop-color="#32d9ff" stop-opacity=".55"/><stop offset="1" stop-color="#32d9ff" stop-opacity="0"/></radialGradient>
+ <radialGradient id="purpleGlow"><stop stop-color="#a45cff" stop-opacity=".42"/><stop offset="1" stop-color="#a45cff" stop-opacity="0"/></radialGradient>
+ <linearGradient id="shell" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#27394d"/><stop offset=".38" stop-color="#111c2a"/><stop offset="1" stop-color="#050911"/></linearGradient>
+ <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#071d2a"/><stop offset="1" stop-color="#02070d"/></linearGradient>
+ <filter id="blur"><feGaussianBlur stdDeviation="35"/></filter>
+ <filter id="shadow"><feDropShadow dx="0" dy="28" stdDeviation="25" flood-color="#000" flood-opacity=".7"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
-<rect width="1200" height="760" fill="url(#bg)"/>
-<circle cx="840" cy="280" r="250" fill="url(#glow)" filter="url(#blur)"/>
-<g opacity=".16" stroke="#67e8ff">
-  <path d="M0 120H1200M0 240H1200M0 360H1200M0 480H1200M0 600H1200"/>
-  <path d="M120 0V760M240 0V760M360 0V760M480 0V760M600 0V760M720 0V760M840 0V760M960 0V760M1080 0V760"/>
+<rect width="1200" height="700" fill="url(#bg)"/>
+<circle cx="760" cy="285" r="300" fill="url(#blueGlow)" filter="url(#blur)"/>
+<circle cx="970" cy="440" r="240" fill="url(#purpleGlow)" filter="url(#blur)"/>
+<path d="M0 555 Q300 510 600 555 T1200 535 V700 H0Z" fill="#03060b"/>
+<g opacity=".13" stroke="#6be7ff"><path d="M0 570H1200M0 610H1200M0 650H1200"/><path d="M100 530L20 700M260 530L210 700M420 530L400 700M580 530L590 700M740 530L780 700M900 530L970 700M1060 530L1160 700"/></g>
+<g opacity=".5"><rect x="865" y="135" width="250" height="155" rx="12" fill="#070b13" stroke="#42526a"/><rect x="880" y="150" width="220" height="125" rx="7" fill="#081521"/><path d="M900 245 L940 215 L975 230 L1015 185 L1080 220" fill="none" stroke="#5be6ff" stroke-width="3" opacity=".7"/><rect x="955" y="292" width="70" height="8" rx="4" fill="#334154"/></g>
+<g transform="translate(260 70)" filter="url(#shadow)">
+ <ellipse cx="330" cy="555" rx="285" ry="48" fill="#000" opacity=".65"/>
+ <rect x="298" y="0" width="64" height="45" rx="12" fill="#101b2a" stroke="#58728a"/><circle cx="330" cy="22" r="13" fill="#03070c" stroke="#56e4ff" stroke-width="3"/><circle cx="330" cy="22" r="5" fill="#9cf5ff" filter="url(#glow)"/>
+ <rect x="120" y="25" width="420" height="470" rx="58" fill="url(#shell)" stroke="#6c8299" stroke-opacity=".45" stroke-width="2"/>
+ <path d="M160 70 Q330 25 500 70" fill="none" stroke="#9a67ff" stroke-opacity=".55" stroke-width="3"/>
+ <rect x="153" y="82" width="354" height="270" rx="38" fill="#02060c" stroke="#55ddff" stroke-opacity=".25" stroke-width="2"/>
+ <rect x="170" y="99" width="320" height="236" rx="29" fill="url(#screen)" stroke="#263c4d"/>
+ <g fill="#69eaff" filter="url(#glow)"><path d="M220 188 Q255 158 290 188 Q255 218 220 188Z"/><path d="M370 188 Q405 158 440 188 Q405 218 370 188Z"/></g>
+ <circle cx="255" cy="188" r="6" fill="#e8fdff"/><circle cx="405" cy="188" r="6" fill="#e8fdff"/>
+ <path d="M270 248 Q330 292 390 248" fill="none" stroke="#6be9ff" stroke-width="9" stroke-linecap="round" filter="url(#glow)"/>
+ <rect x="190" y="375" width="280" height="70" rx="20" fill="#07101a" stroke="#35485b"/><circle cx="220" cy="410" r="8" fill="#62ff9c" filter="url(#glow)"/><text x="242" y="416" fill="#b9cbd7" font-family="monospace" font-size="17" letter-spacing="2">AI CORE ONLINE</text>
+ <circle cx="330" cy="475" r="29" fill="#09131f" stroke="#4ee7ff" stroke-width="3"/><circle cx="330" cy="475" r="12" fill="#54e7ff" opacity=".8" filter="url(#glow)"/>
+ <circle cx="118" cy="290" r="20" fill="#0a1521" stroke="#55e4ff" stroke-width="3"/><circle cx="118" cy="290" r="8" fill="#55e4ff" filter="url(#glow)"/>
+ <circle cx="542" cy="290" r="20" fill="#0a1521" stroke="#a765ff" stroke-width="3"/><circle cx="542" cy="290" r="8" fill="#a765ff" filter="url(#glow)"/>
+ <path d="M160 495 Q330 535 500 495 L535 555 Q330 615 125 555Z" fill="#0a111b" stroke="#3e5268"/><path d="M175 528 Q330 565 485 528" fill="none" stroke="#56e6ff" stroke-opacity=".45" stroke-width="4"/>
 </g>
-<g fill="#67e8ff" opacity=".65"><circle cx="120" cy="130" r="2"/><circle cx="1030" cy="160" r="2"/><circle cx="180" cy="590" r="2"/><circle cx="1010" cy="610" r="2"/></g>
-
-<g transform="translate(430 95)" filter="url(#shadow)">
-  <ellipse cx="170" cy="570" rx="230" ry="38" fill="#000" opacity=".45"/>
-  <rect x="0" y="0" width="340" height="540" rx="48" fill="url(#body)" stroke="#5ee7ff" stroke-opacity=".34" stroke-width="2"/>
-  <rect x="24" y="25" width="292" height="360" rx="32" fill="#050a10" stroke="#7beaff" stroke-opacity=".18"/>
-  <rect x="42" y="43" width="256" height="324" rx="25" fill="url(#screen)" stroke="#67e8ff" stroke-opacity=".28"/>
-  <circle cx="170" cy="190" r="106" fill="#06121b" stroke="#67e8ff" stroke-opacity=".14"/>
-  <circle cx="132" cy="175" r="18" fill="#67e8ff"/><circle cx="208" cy="175" r="18" fill="#67e8ff"/>
-  <circle cx="126" cy="169" r="6" fill="#d9fbff"/><circle cx="202" cy="169" r="6" fill="#d9fbff"/>
-  <path d="M120 235 Q170 278 220 235" fill="none" stroke="#67e8ff" stroke-width="10" stroke-linecap="round"/>
-  <path d="M84 115 Q170 72 256 115" fill="none" stroke="#9d7cff" stroke-opacity=".65" stroke-width="3"/>
-  <text x="170" y="315" text-anchor="middle" fill="#b8f7ff" font-family="monospace" font-size="12" letter-spacing="4">SHIZO</text>
-  <rect x="58" y="415" width="224" height="48" rx="14" fill="#07111c" stroke="#67e8ff" stroke-opacity=".16"/>
-  <circle cx="82" cy="439" r="5" fill="#62ff9c"/><text x="98" y="444" fill="#91a9b7" font-family="monospace" font-size="12">AI CORE / ONLINE</text>
-  <rect x="70" y="485" width="200" height="12" rx="6" fill="#152535"/><rect x="70" y="485" width="128" height="12" rx="6" fill="#67e8ff" opacity=".75"/>
-</g>
-
-<g font-family="monospace" fill="#9cb3c2">
-  <text x="62" y="72" font-size="13" letter-spacing="3" fill="#67e8ff">SHIZO // AI HARDWARE SYSTEM</text>
-  <text x="62" y="108" font-size="11">PERSONAL AI · TOOLS · CONNECTED SERVICES · PHYSICAL INTERFACE</text>
-  <text x="62" y="690" font-size="11" fill="#62ff9c">● IN DEVELOPMENT</text>
-  <text x="920" y="690" font-size="11">ESP / OLED / WI-FI / WEB</text>
-</g>
+<path d="M175 570 C105 585 130 640 215 630" fill="none" stroke="#05080d" stroke-width="18"/><path d="M175 570 C105 585 130 640 215 630" fill="none" stroke="#263344" stroke-width="3"/>
+<g font-family="monospace"><text x="55" y="68" fill="#69eaff" font-size="13" letter-spacing="4">SHIZO // PERSONAL AI SYSTEM</text><text x="55" y="96" fill="#718697" font-size="11" letter-spacing="2">AI · HARDWARE · ESP · WI-FI · WEB CONTROL</text><text x="55" y="650" fill="#62ff9c" font-size="11" letter-spacing="2">● IN DEVELOPMENT</text><text x="1005" y="650" fill="#718697" font-size="11" text-anchor="end">PROTOTYPE / 01</text></g>
 </svg>
