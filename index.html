@@ -62,7 +62,7 @@ footer{border-top:1px solid var(--line);padding:25px 0;display:flex;justify-cont
 @media(max-width:520px){h1{font-size:59px}.scene{top:38%;min-width:280px;min-height:280px}.stats{grid-template-columns:1fr}.github-grid{grid-template-columns:1fr}.timeline-item{grid-template-columns:90px 1fr}}
 
 /* ===== IN-DEVELOPMENT GAME PROJECTS ===== */
-.dev-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:42px}
+.dev-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:42px}
 .dev-card{position:relative;overflow:hidden;padding:32px;border:1px solid rgba(255,255,255,.10);border-radius:22px;background:linear-gradient(145deg,rgba(255,255,255,.055),rgba(255,255,255,.018));box-shadow:0 20px 60px rgba(0,0,0,.25);transition:transform .45s ease,border-color .45s ease,box-shadow .45s ease}
 .dev-card:before{content:"";position:absolute;inset:-1px;background:linear-gradient(120deg,transparent 25%,rgba(255,255,255,.10),transparent 75%);transform:translateX(-110%);transition:transform .8s ease;pointer-events:none}
 .dev-card:hover{transform:translateY(-8px);border-color:rgba(120,220,255,.35);box-shadow:0 28px 80px rgba(0,0,0,.38)}
@@ -78,6 +78,7 @@ footer{border-top:1px solid var(--line);padding:25px 0;display:flex;justify-cont
 .tag-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}
 .tag-row span{font-size:11px;padding:7px 10px;border-radius:8px;background:rgba(255,255,255,.055);border:1px solid rgba(255,255,255,.08);opacity:.78}
 @keyframes devPulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.45;transform:scale(.72)}}
+@media(max-width:1000px){.dev-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:760px){.dev-grid{grid-template-columns:1fr}.dev-card{padding:24px}}
 
 
@@ -341,14 +342,14 @@ opacity:0;transition:opacity .25s ease}
 
 </header>
 
-<div class="marquee"><div class="marquee-track"><b>GAME DEVELOPMENT</b><b>UNITY</b><b>WEB DEVELOPMENT</b><b>REACT</b><b>BLENDER</b><b>3D ART</b><b>C#</b><b>PYTHON</b><b>GAME DEVELOPMENT</b><b>UNITY</b><b>WEB DEVELOPMENT</b><b>REACT</b><b>BLENDER</b><b>3D ART</b><b>C#</b><b>PYTHON</b></div></div>
+<div class="marquee"><div class="marquee-track"><b>GAME DEVELOPMENT</b><b>UNITY</b><b>WEB DEVELOPMENT</b><b>REACT</b><b>BLENDER</b><b>3D ART</b><b>AI SYSTEMS</b><b>SHIZO</b><b>C#</b><b>PYTHON</b><b>GAME DEVELOPMENT</b><b>UNITY</b><b>WEB DEVELOPMENT</b><b>REACT</b><b>BLENDER</b><b>3D ART</b><b>AI SYSTEMS</b><b>SHIZO</b><b>C#</b><b>PYTHON</b></div></div>
 
 
 <section class="section" id="in-development">
   <div class="section-head reveal">
     <span class="eyebrow">IN DEVELOPMENT</span>
     <h2>Currently Building<span class="accent">.</span></h2>
-    <p>Two active Unity game projects I’m developing and iterating on.</p>
+    <p>Three active projects I’m developing and iterating on across games, AI, hardware and interactive systems.</p>
   </div>
 
   <div class="dev-grid">
@@ -384,6 +385,25 @@ opacity:0;transition:opacity .25s ease}
       </p>
       <div class="tag-row">
         <span>Unity</span><span>C#</span><span>Game Design</span><span>Level Design</span>
+      </div>
+    </article>
+
+    <article class="dev-card reveal">
+      <div class="dev-top">
+        <span class="status-pill"><i></i> IN DEVELOPMENT</span>
+        <span class="dev-index">AI 03</span>
+      </div>
+      <div class="project-media"><img src="assets/shizo-project.svg" alt="SHIZO personal AI hardware system preview"><span class="media-caption">AI HARDWARE SYSTEM · SHIZO</span></div>
+      <h3>SHIZO</h3>
+      <p class="dev-type">AI · Hardware · ESP · Wi-Fi · Web UI</p>
+      <p>
+        A personal AI system being developed to understand requests, communicate,
+        use tools and connected services, and perform tasks through a stationary
+        hardware interface. The current prototype focuses on ESP-based hardware,
+        OLED expressions, Wi-Fi communication, web controls and personality-driven behaviour.
+      </p>
+      <div class="tag-row">
+        <span>AI</span><span>Hardware</span><span>ESP</span><span>Wi-Fi</span><span>Web UI</span>
       </div>
     </article>
   </div>
