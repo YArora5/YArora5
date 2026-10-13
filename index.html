@@ -394,7 +394,7 @@ opacity:0;transition:opacity .25s ease}
         <span class="dev-index">AI 03</span>
       </div>
       <div class="project-media"><img src="assets/shizo-project.svg" alt="SHIZO personal AI hardware system preview"><span class="media-caption">AI HARDWARE SYSTEM · SHIZO</span></div>
-      <h3>SHIZO</h3>
+      <h3>SHIZO</h3><p><a href="https://github.com/YArora5/Shizo" target="_blank" rel="noopener noreferrer">View source on GitHub ↗</a></p>
       <p class="dev-type">AI · Hardware · ESP · Wi-Fi · Web UI</p>
       <p>
         A personal AI system being developed to understand requests, communicate,
@@ -563,9 +563,9 @@ async function loadRepos(){
  try{
   const res=await fetch("https://api.github.com/users/YArora5/repos?per_page=100&sort=updated");
   const repos=await res.json();
-  const wanted=["HeartFall","Blender-animations","Interior-Designer","SmartAttendance","Escobars-Shack","Dental-Clinic","craft-project-planner","Weather","medhire","Graphic-Design","Blender-files"];
+  const wanted=["HeartFall","Shizo","Interior-Designer","medhire","SmartAttendance","craft-project-planner","Weather","Blender-animations"];
   const ordered=[...wanted.map(n=>repos.find(r=>r.name===n)).filter(Boolean),...repos.filter(r=>!wanted.includes(r.name))];
-  box.innerHTML=ordered.slice(0,12).map(r=>`<a class="gh" href="${r.html_url}" target="_blank"><div class="mono accent">${r.language||"PROJECT"}</div><h3>${r.name} ↗</h3><p>${r.description||"A project from Yugal Arora’s GitHub."}</p><div class="gh-foot"><span>★ ${r.stargazers_count}</span><span>${r.forks_count} forks</span></div></a>`).join("");
+  box.innerHTML=ordered.slice(0,8).map(r=>`<a class="gh" href="${r.html_url}" target="_blank" rel="noopener noreferrer"><div class="mono accent">${r.language||"PROJECT"}</div><h3>${r.name} ↗</h3><p>${r.description||"A project from Yugal Arora’s GitHub."}</p><div class="gh-foot"><span>★ ${r.stargazers_count}</span><span>${r.forks_count} forks</span></div></a>`).join("");
   ScrollTrigger.refresh();
  }catch(e){box.innerHTML='<a class="gh" href="https://github.com/YArora5" target="_blank"><div class="mono accent">GITHUB</div><h3>View all repositories ↗</h3><p>Open Yugal Arora’s GitHub profile to explore the complete project collection.</p></a>'}
 }
